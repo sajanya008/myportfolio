@@ -31,7 +31,7 @@ const PROJECTS = [
     desc: "The luxury minimal site you're viewing right now — a glassmorphic, motion-driven portfolio built to present full-stack work with an agency-grade level of craft.",
     stack: ["React.js", "Framer Motion", "React Router"],
     live: "https://portfolio.netlify.app/",
-    github: "https://github.com/aneena-shahla-k/PORTFOLIO",
+    github: "https://github.com/sajanya008/myportfolio",
     image: portfolioImg,
   },
 ];
