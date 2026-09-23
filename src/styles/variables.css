@@ -1,0 +1,49 @@
+:root {
+  --bg: #F7F5F2;
+  --bg-elevated: #FBFAF8;
+  --primary: #111111;
+  --accent: #5D4FFF;
+  --accent-soft: rgba(93, 79, 255, 0.12);
+  --text-secondary: #6B6B6B;
+  --card: rgba(255, 255, 255, 0.55);
+  --card-solid: rgba(255, 255, 255, 0.85);
+  --border: rgba(255, 255, 255, 0.6);
+  --border-hairline: rgba(17, 17, 17, 0.08);
+
+  --shadow-soft: 0 20px 60px -15px rgba(17, 17, 17, 0.08);
+  --shadow-softer: 0 10px 30px -10px rgba(17, 17, 17, 0.06);
+  --shadow-lift: 0 30px 80px -20px rgba(17, 17, 17, 0.16);
+
+  --font-display: "Bodoni Moda", "Times New Roman", serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --radius-pill: 999px;
+
+  --container: 1240px;
+  --nav-h: 84px;
+
+  --ease-luxury: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 0.35s;
+  --dur-med: 0.6s;
+  --dur-slow: 1s;
+}
+
+[data-theme="dark"] {
+  --bg: #111111;
+  --bg-elevated: #1A1A1A;
+  --primary: #F5F3EF;
+  --accent: #7B6CFF;
+  --accent-soft: rgba(123, 108, 255, 0.16);
+  --text-secondary: #9B9B9B;
+  --card: rgba(34, 34, 34, 0.55);
+  --card-solid: rgba(26, 26, 26, 0.9);
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hairline: rgba(255, 255, 255, 0.08);
+
+  --shadow-soft: 0 20px 60px -15px rgba(0, 0, 0, 0.5);
+  --shadow-softer: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+  --shadow-lift: 0 30px 80px -20px rgba(0, 0, 0, 0.6);
+}
